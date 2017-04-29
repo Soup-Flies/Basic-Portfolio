@@ -1,0 +1,75 @@
+header {
+	background-color: #FFFFFF;
+}
+
+h1 {
+	width: 40%;
+	margin: 40px 0px 0px 150px;
+	text-align: center;
+	padding: 15px 0px 15px 0px;
+	float: left;
+	background: #4aaaa5;
+	color: #FFFFFF;
+}
+
+li {
+	margin: 40px;
+	margin-top: 40px;
+	margin-left: 20px;
+	float: left;
+}
+
+nav {
+	float: left;
+
+}
+
+h2 {
+	clear: both;
+}
+
+hr {
+	clear: both;
+}
+
+body {
+	margin: 0px;
+}
+
+
+#selfie {
+	margin: 15px;
+	float: left;
+}
+
+#about {
+	margin-left: 150px;
+	left: 15%;
+	background: #ffffff;
+	float: left;
+	width: 40%;
+}
+
+#social {
+	text-align: center;
+	background: #ffffff;
+	float: left;
+	padding: 40px;
+	margin-left: 100px;
+}
+
+#footertop {
+	top: 0;
+	background: #4aaaa5;
+	height: 5px;
+
+}
+
+footer {
+	color: #FFFFFF;
+	width: 100%;
+	background: #666666;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+}
