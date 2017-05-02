@@ -37,25 +37,31 @@ h1 {
 	margin-bottom: 0px;
 }
 
-ul {
-	list-style-type: none;
-}
-
-li {
-	margin-left: 8px;
-	margin-top: 10px;
-	float: left;
-}
 
 nav {
 	width: 270px;
+	height: 48px;
+	padding-top: 15px;
 	text-align: center;
+	margin-top: 13px;
 	float: right;
 }
 
 a {
+	height: 100%;
+	width: 33.3%;
 	text-decoration: none;
 	color: #777777;
+}
+
+.hover a {
+	float: right;
+	height: 100%;
+	transition: margin 0.25s;
+}
+
+.hover a:hover {
+	margin-top: -3px;
 }
 
 body {
@@ -64,10 +70,12 @@ body {
 	color: #777777;
 }
 
+/*
 .vert {
 	border-right: solid 1px #cccccc;
 	padding-right: 10px;
 }
+*/
 
 #selfie {
 	float: left;
@@ -184,12 +192,6 @@ h5 {
 	position: relative;
 	padding: 0px;
 	bottom: 5px;
-}
-
-.hover:hover {
-	color: #fff;
-	border-radius: 4px;
-	background: #4aaaa5;
 }
 
 .icons:hover {
