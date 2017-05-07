@@ -30,7 +30,6 @@ footer {
 
 
 main {
-	overflow: auto;
 	z-index: 0;
 	width: 920px;
 	margin: 130px auto 0px auto;
@@ -231,6 +230,10 @@ h5 {
 		padding-left: 30px;
 	}
 
+}
+
+@media screen and (max-width: 640px) {
+
 	header {
 		position: absolute;
 	}
@@ -241,4 +244,3 @@ h5 {
 	}
 
 }
-
