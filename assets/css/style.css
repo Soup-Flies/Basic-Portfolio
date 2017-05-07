@@ -69,7 +69,7 @@ p {
 }
 
 input {
-	width: 100%;
+	width: 99%;
 	height: 30px;
 }
 
@@ -102,7 +102,7 @@ h5 {
 
 #message {
 	height: 120px;
-	width: 100%;
+	width: 99%;
 	float: left;
 	resize: vertical;
 	overflow: auto;
@@ -110,7 +110,7 @@ h5 {
 
 #selfie {
 	float: left;
-	width: 39%;
+	width: 45%;
 	margin-right: 10px;
 	margin-top: 10px;
 }
@@ -218,29 +218,98 @@ h5 {
 
 @media screen and (max-width: 980px) {
 
-	h1 {
-		margin-left: 30px;
+	#selfie {
+		width: 100%;
+		padding-bottom: 10px;
 	}
 
-	nav {
-		margin-right: -30px;
+	#headback {
+		min-width: 100vw;
+	}
+
+	body {
+		width: 100vw;
+	}
+
+	#heading {
+		min-width: 84%;
+		width: 84%;
+	}
+	
+	#about {
+		width: 49%;
 	}
 
 	main {
-		padding-left: 30px;
+		margin-left: 8%;
+		margin-right: 8%;
+		width: 84%;
+	}
+
+	footer {
+		min-width: 100vw;
+		width: 100vw;
 	}
 
 }
 
+@media screen and (max-width: 768px) {
+	
+	#selfie {
+		width: 51%;
+	}
+
+	#about {
+		width: 96%;
+		padding: 10px;
+	}
+
+	#social {
+		clear: both;
+		float: none;
+		width: 96%;
+		padding: 10px;
+		margin-bottom: 30px;
+	}
+}
+
 @media screen and (max-width: 640px) {
 
+	#selfie {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	h1 {
+		position: absolute;
+		width: 100vw;
+		margin-top: -76px;
+	}
+	
 	header {
 		position: absolute;
 	}
 
+	nav {
+		width: calc(100vw - 120px);
+		padding-left: 60px;
+		padding-right: 60px;
+		margin-left: auto;
+		margin-right: auto;
+		position: absolute;
+	}
+
+	#heading {
+		width: 100vw;
+	}
+
 	.headback {
 		position: absolute;
-		min-width: 980px;
+		margin-top: 76px;
+	}
+
+	main {
+		margin-top: 200px;
 	}
 
 }
